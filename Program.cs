@@ -1,4 +1,5 @@
 ﻿using PodstawyC_.Module1;
+using PodstawyC_.Module2;
 using System;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -42,6 +43,12 @@ namespace PodstawyC_sharp
 
             // MODUŁ 2:
 
+            Person.PersonExample();
+
+            ExcelFile excelFile = new ExcelFile();
+            excelFile.CreatedOn = DateTime.Now;
+            excelFile.FileName = "excel-file";
+            excelFile.GenerateReport();
 
 
 
