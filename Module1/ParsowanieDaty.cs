@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PodstawyC_
+namespace PodstawyC_.Module1
 {
     internal class ParsowanieDaty
     {

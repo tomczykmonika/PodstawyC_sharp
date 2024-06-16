@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace PodstawyC_
+namespace PodstawyC_.Module1
 {
     internal class Podstawy
     {
