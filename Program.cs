@@ -17,7 +17,7 @@ namespace PodstawyC_sharp
         private static void Main(string[] args)
         {
 
-            // MODUŁ 1:
+            // *** MODUŁ 1:
             //Podstawy.WriteAndRead();
             //Podstawy.TypyZmiennych();
             //Podstawy.Operatory();
@@ -41,15 +41,31 @@ namespace PodstawyC_sharp
             //ParsowanieDaty.ParsDateCwiczenie();
 
 
-            // MODUŁ 2:
+            // *** MODUŁ 2:
 
-            Person.PersonExample();
+            //Person.PersonExample();
 
+            // * Klasy abstrakcyjne i interface'y
+            /*
             ExcelFile excelFile = new ExcelFile();
             excelFile.CreatedOn = DateTime.Now;
             excelFile.FileName = "excel-file";
             excelFile.GenerateReport();
 
+            WordFile wordFile = new WordFile();
+            wordFile.CreatedOn = DateTime.Now;
+            wordFile.FileName = "word-file";
+            wordFile.Print();
+            */
+            // * Polimorfizm
+            /*
+            Shape[] shapes = {new Circle(), new Rectangle(), new Triangle()};
+
+            foreach (Shape shape in shapes)
+            {
+                shape.Draw();
+            }
+            */
 
 
         }

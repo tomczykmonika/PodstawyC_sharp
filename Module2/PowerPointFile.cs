@@ -8,6 +8,10 @@ namespace PodstawyC_.Module2
 {
     internal class PowerPointFile : File
     {
+        public override void Compress()
+        {
+            Console.WriteLine("Compressing PowerPointFile");
+        }
         public void Present()
         {
             Console.WriteLine($"{FileName} presenting...");

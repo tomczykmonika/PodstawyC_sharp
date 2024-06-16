@@ -11,5 +11,7 @@ namespace PodstawyC_.Module2
         public string FileName { get; set; }
         public int Size { get; set; }
         public DateTime CreatedOn { get; set; }
+
+        public abstract void Compress();
     }
 }
