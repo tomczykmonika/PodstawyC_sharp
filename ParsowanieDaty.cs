@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PodstawyC_.Module1
+namespace PodstawyC_
 {
     internal class ParsowanieDaty
     {
@@ -28,7 +28,7 @@ namespace PodstawyC_.Module1
             DateTime dataUrodzenia = DateTime.Parse(Console.ReadLine());
             TimeSpan timeSpan = DateTime.Now - dataUrodzenia;
 
-            Console.WriteLine($"Urodziłeś się {((int)timeSpan.TotalDays)} dni temu.");
+            Console.WriteLine($"Urodziłeś się {(int)timeSpan.TotalDays} dni temu.");
 
         }
 

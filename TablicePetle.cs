@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PodstawyC_.Module1
+namespace PodstawyC_
 {
     internal class TablicePetle
     {   /*Twoim zadaniem jest napisanie programu do analizy temperatur. 
