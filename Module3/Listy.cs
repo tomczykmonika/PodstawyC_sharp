@@ -59,6 +59,11 @@ namespace PodstawyC_.Module3
 
 
             // SORTOWANIE LISTY
+            List<int> intList5 = new List<int>() { 6, 1, 20, 3, 45, 60, 100, 2 };
+            DisplayElements(intList5);
+            intList5.Sort();
+            Console.WriteLine("Sort:");
+            DisplayElements(intList5);
         }
     }
 }

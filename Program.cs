@@ -2,11 +2,13 @@
 using PodstawyC_.Module2;
 using PodstawyC_.Module3;
 using System;
+using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace PodstawyC_sharp
-    {
+{
 
     #region ProgramClassRegion
     class Program
@@ -17,6 +19,7 @@ namespace PodstawyC_sharp
         /// <param name="args">args description</param>
         private static void Main(string[] args)
         {
+
 
             // *** MODUŁ 1:
             //Podstawy.WriteAndRead();
@@ -69,9 +72,16 @@ namespace PodstawyC_sharp
 
 
             // *** MODUŁ 3:
-            Listy.ListyExample();
 
+            //Listy.ListyExample();
+            //TaskManager.TaskExample();
+            //LINQ_Person.PersonExample();
+            //Currency.CurrencyExample();
+            //GradeManager.GradeExample();
+            //Iterator_yield.YieldExample();
+            EvenNumberGenerator.EvenNumberExample();
         }
+             
     }
     #endregion
 }

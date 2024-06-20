@@ -56,7 +56,7 @@ namespace PodstawyC_.Module2
         */
         public void SayHi()
         {
-            Console.WriteLine($"Hi, I'm {FirstName}, {GetDateOfBirth()}");
+            Console.WriteLine($"Hi, I'm {FirstName} {LastName}, {GetDateOfBirth()}");
         }
 
         // Właściwość klasy - akcesor (get, set),
